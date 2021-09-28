@@ -1,0 +1,44 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h2{
+  font-size: 2rem;
+  text-decoration: underline;
+  text-shadow: 4px 4px 3px rgba(78, 78, 78, 0.658);
+}
+
+input, button{
+  font-size: 1.5rem;
+}
+
+input{
+  border-radius: 5px 0 0 5px;
+  width: 170px;
+}
+input:focus{
+  outline: 2px solid rgb(119, 41, 119);
+}
+
+button{
+  cursor: pointer;
+  background-color: rgb(119, 41, 119);
+  border: 2px solid rgb(119, 41, 119);
+  border-radius: 0 5px 5px 0;
+  transition: 0.3s;
+}
+button:hover{
+  background-color: rgb(90, 33, 90);
+  border-color: rgb(73, 26, 73);
+  color: rgb(255, 255, 255);
+}
+button:active{
+  background-color: rgb(155, 64, 155);
+  border-color: rgb(172, 62, 172);
+  color: rgb(0, 0, 0);
+}
